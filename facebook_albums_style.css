@@ -1,0 +1,49 @@
+body#facebook_Albums_sample {
+	margin: 20px;
+}
+body#facebook_Albums_sample h1 {
+	text-align: center;
+	font-size: 14px;
+}
+div#facebook_Albums {
+	height:160px;
+	width:180px;
+	margin:0px auto;
+	overflow:hidden;
+	position: relative;
+	background: url(background.jpg) center center no-repeat;
+	background-size: 180px 160px;
+}
+div.facebook_photos {
+	height:140px;
+	width:160px;
+	left: 10px;
+	top: 10px;
+	overflow:hidden;
+	position: absolute;
+}
+ul#photos {
+	left: 0px;
+	top: 5px;
+	width:auto;
+	height:140px;
+	text-align: center;
+	vertical-align: middle;
+	background: url(ajax-loader.gif) center center no-repeat;
+	position: absolute;
+}
+ul#photos li {
+	position: absolute;
+	font-size: 0px;
+	line-height: 0px;
+	background: none;
+}
+ul#photos li a {
+	color: #FFFFFF;
+}
+ul#photos li img{
+	border: solid 2px #FFFFFF;
+	box-shadow: 0 2px 3px #999;
+	-moz-box-shadow: 0 2px 3px #999;
+	-webkit-box-shadow: 0 2px 3px #999;
+}
